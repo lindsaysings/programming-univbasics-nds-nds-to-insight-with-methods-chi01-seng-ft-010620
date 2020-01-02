@@ -12,7 +12,7 @@ while i < director_data[:movies].length do
   i += 1
 end
 hash.merge!(director_data[:name] => total)
-hash
+return total
 end
     
 # level needed to access each movie's gross directors_database[0][:movies][0][:worldwide_gross]
