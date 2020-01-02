@@ -27,10 +27,10 @@ def directors_totals(nds)
 i = 0
 total = 0
 hash = {}
-while i < director_data[:movies].length do
-  total += director_data[:movies][i][:worldwide_gross]
+while i < nds[:movies].length do
+  total += nds[:movies][i][:worldwide_gross]
   i += 1
 end
-hash.merge!(director_data[:name] => total)
+hash.merge!(nds[:name] => total)
 return hash
 end
