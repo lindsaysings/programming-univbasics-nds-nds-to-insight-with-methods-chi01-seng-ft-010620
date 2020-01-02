@@ -24,6 +24,5 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  result = {}
-  nil
+  hash = nds.merge!()
 end
