@@ -24,5 +24,12 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  hash = {}
+total = 0
+director_movie_index = 0
+
+while director_movie_index < nds[:movies]. count do
+total += directors_database[5][:movies][director_movie_index][:worldwide_gross]
+director_hash.merge!(directors_database[5][:name] => total)
+director_movie_index += 1
+end
 end
