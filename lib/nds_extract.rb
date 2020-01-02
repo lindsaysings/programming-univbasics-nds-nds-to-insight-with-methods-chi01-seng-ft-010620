@@ -34,8 +34,9 @@ while director_index < nds.length do
       
       director_movie_index += 1
     end
-    director_hash.merge!(nds[director_index][:name] => total)
+    
     director_index += 1 
 end
+director_hash.merge!(nds[director_index][:name] => total)
 p director_hash
 end
